@@ -1,8 +1,7 @@
 #코드 구현력 기르기
 # k번째 약수
 import sys
-
-sys.stdin = open("/Users/honey/Desktop/학습/input.txt", "rt")
+sys.stdin = open("input.txt", "rt")
 N,K = map(int,input().split(" "))
 # 텍스트 파일에 옆으로 나열되어있는 거는 map으로 읽고, 띄어쓰기로 구분해놨으니까 split(" ")을 써야한다.
 # 인풋용 텍스트 파일 만들어서 불러와서 사용 !
