@@ -1,5 +1,6 @@
 import sys
 import random as r
+# K번 째 큰 수 구하기 !!
 sys.stdin = open("input.txt", "rt")
 ''' 
 문제) 현수는 1부터 100사이의 자연수가 적힌 N장의 카드를 가지고 있습니다.
